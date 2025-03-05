@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 export default function Layout() {
 return (
  <>
- <img src='../src/assets/logo.JPG' alt="My Portfolio Logo" className="logo" />
+ <img src='components/logo.JPG' alt="My Portfolio Logo" className="logo" />
  <nav> 
     <Link to="/">Home</Link> | 
     <Link to="/about">About Me</Link> | 
